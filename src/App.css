@@ -1,7 +1,14 @@
+*{
+  position: relative;
+}
 .App {
   text-align: center;
 }
-
+#root{
+  min-height: 92vh;
+  width: 80vw;
+  margin: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

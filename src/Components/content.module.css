@@ -1,0 +1,38 @@
+@media(min-width:1024px){
+    #content_body{
+        min-height: max(87px,58vh);
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    #left,#right{
+        position: relative;
+        box-sizing: border-box;
+        padding: 5%;
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+    }
+    .content_button{
+        font-size: max(12px,2vh);
+        box-sizing: border-box;
+        display: inline-block;
+        position: relative;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        background-color: #AAD8D3;
+        margin: 10% 10%;
+        width: 30%;
+    }
+    #content_image{
+        width: 100%;
+    }
+    .content_button:hover{
+        background-color: #99c7c2;
+    }
+}
