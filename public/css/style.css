@@ -30,9 +30,6 @@ body{
 	color:#ff0000 !important;
 	text-decoration: underline;
 }
-.navbar-nav{
-	margin-right: 15%;
-}
 .navbar-toggler{
 	margin-right: 5%;
 }
@@ -50,7 +47,14 @@ body{
 		background-color: #000000;
 	}
 	.nav-link{
-		font-size: 14px;
+		font-size: 16px;
+		margin-right:0px;
+		padding:20px;
+		text-align: center;
+	}
+	.nav-link:hover{
+		font-weight: 700;
+		background-color: #ffffff;
 	}
 }
 @media(min-width:768px) and (max-width:991px){
@@ -60,6 +64,9 @@ body{
 	.nav-link{
 		font-size: 18px;
 	}
+	.navbar-nav{
+		margin-right: 15%;
+	}
 }
 @media(min-width:992px){
 	.navbar-brand{
@@ -67,5 +74,8 @@ body{
 	}
 	.nav-link{
 		font-size: 24px;
+	}
+	.navbar-nav{
+		margin-right: 15%;
 	}
 }
