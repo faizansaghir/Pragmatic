@@ -1,24 +1,21 @@
 import React from 'react'
-import ContentStyle from './content.module.css'
 
 function Content() {
     return (
-        <div id={ContentStyle.content_body}>
-            <div id={ContentStyle.left}>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    <br/><br/>
-                    Quidem sint ex, hic in maxime quam saepe fuga at   
-                    repellendus, 
-                    <br/><br/>
-                    illum possimus nam quas inventore totam numquam eos   
-                    quae dolor et.
-                </p>
-                <a href="index.html" className={ContentStyle.content_button}>LOGIN</a>
-                <a href="index.html" className={ContentStyle.content_button}>SIGN UP</a>
-            </div>
-            <div id={ContentStyle.right}>
-                <img src="mainPage.png" alt="Home Page Line Art" id={ContentStyle.content_image}/>
+        <div className="container-fluid d-flex">
+		    <div id="container" className="my-auto">
+                <div className="row justify-content-center mb-c">
+                    <h1 className="main-heading ml-5 mr-5 clr-1 justify-content-center">Heading Text</h1>	
+                </div>
+                <div className="row justify-content-center mb-c">
+                    <p className="ml-5 mr-5 col-md-8 col-lg-6">Lorem ipsum, dolor sit, amet consectetur adipisicing elit.<br/><br/> 
+                        Ea, dolorum minus vel rerum velit fugit magni, repellendus ex tempore adipisci unde voluptas,<br/><br/>
+                        provident ad earum! Deleniti veritatis odio sit, ad!</p>
+                </div>	
+                <div className="row justify-content-center">
+                    <button className="navigation-button btn btn-danger col-10 mb-5 mb-sm-0 col-sm-4 clr-2 bg-clr-1 mr-sm-5 col-md-2" id="login-btn">LOGIN</button>
+                    <button className="navigation-button btn btn-danger col-10 col-sm-4 clr-2 bg-clr-1 col-md-2">SIGNUP</button>
+                </div>
             </div>
         </div>
     )
