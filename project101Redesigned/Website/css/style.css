@@ -26,15 +26,19 @@ nav{
     z-index: 1;
 }
 .main-heading{
+    font-weight: 700;
     text-align: center;
 }
 #root{
   margin: auto;
 }
 .navigation-button{
+    display: flex;
     font-weight: 700;
     border-radius: 50px;
     border-color:#a3c739;
+    justify-content: center;
+    align-items: center;
 }
 .navigation-button:hover{
     border-color: #ffffff;
@@ -166,7 +170,7 @@ nav{
         margin-right: 15%;
     }
     .mb-c{
-        margin-bottom: 5em;
+        margin-bottom: 4em;
     }
     .mr-md-4{
         margin-right: 2em;
@@ -189,7 +193,7 @@ nav{
         margin-right: 15%;
     }
     .mb-c{
-        margin-bottom: 7em;
+        margin-bottom: 5em;
     }
     .mr-md-4{
         margin-right: 2.5em;
@@ -207,27 +211,43 @@ nav{
     box-shadow: 3px 2px #A3C739;
 }
 
+.login_btn:hover {
+    background: #ffffff;
+    color: #A3C739;
+}
 .login_btn:focus {
     box-shadow: none !important;
     outline: 0px !important;
 }
-
 .input-group-text {
-    background: rgba(0, 0, 0, 0.705);
+    background-color: transparent;
     color: white !important;
     border: none;
-    border-radius: 45px;
 }
-
+.fa{
+    margin-left: 10px;
+}
+.input-group{
+    background: rgba(0, 0, 0, 0.705);
+    border-radius: 50px;
+}
+.input-group:focus-within{
+    background: rgba(0, 0, 0, 0.9);
+}
 input[type="text"],
 input[type="password"],
 input[type="number"] {
-    background: rgba(0, 0, 0, 0.705);
+    background-color: transparent;
     border: none;
-    border-radius: 45px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: large;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    background-color: transparent;
 }
 
 #submit {
@@ -240,12 +260,18 @@ input[type="number"] {
     font-size: 28px;
 }
 
-.input_user,
-.input_pass:focus {
+.user-input:focus {
     box-shadow: none !important;
     outline: 0px !important;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #A3C739 !important;
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: none;
+    color:#a3c739;
 }
