@@ -117,6 +117,9 @@ nav{
     .mb-c{
         margin-bottom: 3em;
     }
+    .links{
+        font-size: 0.8em;
+    }
 }
 @media(min-width: 576px) and (max-width:767px){
     .container-fluid{
