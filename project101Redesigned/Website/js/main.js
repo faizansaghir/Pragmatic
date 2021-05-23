@@ -14,7 +14,7 @@ const collapseMenu=()=>{
 	}	
 }
 const checkToCollapse=(e)=>{
-	if(navToggler!==e.target)
+	if(navToggler!==e.target && !navToggler.contains(e.target))
 		collapseMenu();
 }
 const navToggler=document.getElementsByClassName("navbar-toggler-icon")[0];	

@@ -13,10 +13,10 @@ function Forgot() {
                     <div className="col-10 col-md-6 col-lg-4">
                         <form>
                             <div className="input-group mb-3">
-                                <input type="text" name="" className="form-control user-input" placeholder="Username"/>
+                                <input type="text" className="form-control user-input" placeholder="Username"/>
                             </div>
                             <div className="d-flex justify-content-center mt-4 login_container">
-                                <input type="submit" name="" className="btn btn-success clr-2 bg-clr-1 navigation-button w-100 py-3"/>
+                                <input type="submit" className="btn btn-success clr-2 bg-clr-1 navigation-button w-100 py-3"/>
                             </div>
                             
                         </form>

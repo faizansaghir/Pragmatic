@@ -4,7 +4,7 @@
     position: relative;
 }
 body{
-    background: url('../img/index_bg.png') no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: right 0;
     min-height: 100vh;
@@ -45,29 +45,24 @@ nav{
     color:#a3c739;
     background-color: #ffffff;
 }
-#container{
-    width: 100%;
-    padding: 0 10%;
-}
 .navbar-brand{
     color:#ffffff;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 100px;
     margin-left: 15%;
 }
 .navbar-brand:hover{
     color: #ffffff;
 }
 .nav-link{
-    color: #ffffff !important;
+    color: #ffffff ;
     font-size: 24px;
 }
 .nav-link:hover{
-    color: #a3c739 !important;
+    color: #a3c739 ;
 }
-.active .nav-link{
-    color:#a3c739 !important;
+.active{
+    color:#a3c739;
     text-decoration: underline;
 }
 .navbar-toggler{
@@ -273,4 +268,7 @@ input[type="number"]:focus {
 .links:hover{
     text-decoration: none;
     color:#a3c739;
+}
+.form-control{
+    margin-left:2em;
 }
